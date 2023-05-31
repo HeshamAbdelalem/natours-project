@@ -21,7 +21,7 @@ body {
   padding: 2rem;
 }
 
-header {
+.header {
   height: 95vh;
   background-color: #444;
   background-image: linear-gradient(
@@ -37,17 +37,17 @@ header {
   line-height: 1.7;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 35px;
   left: 35px;
 }
 
-.logo {
+.header__logo {
   height: 40px;
 }
 
-.heading-box {
+.header__text-box {
   color: #fff;
   position: absolute;
   top: 50%;
@@ -61,7 +61,7 @@ header {
   margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 60px;
   font-weight: 400;
@@ -69,7 +69,7 @@ header {
   animation: moveInLeft 1s ease-in-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   letter-spacing: 16px;
   font-size: 20px;
@@ -144,7 +144,7 @@ a:visited {
   box-shadow: 0px 8px 10px #4444448f;
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -162,7 +162,7 @@ a:visited {
   transition: all 0.4s ease-in-out;
 }
 
-.btn:hover::after {
+.btn--animated:hover::after {
   transform: scaleX(1.4) scaleY(1.7);
   opacity: 0;
 }
